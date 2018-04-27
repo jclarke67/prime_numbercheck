@@ -1,5 +1,10 @@
 function is_prime() {
-  var n = document.getElementById("checkPrime").value;
+  var n = document.getElementById("checkPrime");
+    if (!n.checkValidity()) {
+    document.getElementById("result").innerHTML = n.validationMessage;
+    return;
+  }
+  n = n.value;
   var status = true;
   if (n == 1) status = false;
   if (n == 2) status = true;
@@ -9,5 +14,5 @@ function is_prime() {
     }
   }
   console.log(status);
-  window.alert(status);
+  document.getElementById("result").innerHTML = status;
 }
