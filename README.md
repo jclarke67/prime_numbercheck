@@ -1,6 +1,4 @@
-# prime_numbercheck
-
-Your challenge
+# Prime Number Checker
  
   Create a simple browser app that allows the user to enter a number, and then press a button to learn if that number is         prime. The app’s main activity should have the following:
 
