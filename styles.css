@@ -1,0 +1,23 @@
+<style>
+  .blue-text {
+    color: blue;
+  }
+
+  h2 {
+    font-family: Fjalla+One, Monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Fjalla+One;
+  }
+
+  .smaller-image {
+    width: 250px;
+  }
+  
+  .text-wrap {
+    width: 13em;
+    overflow-wrap: break-word;
+  }
+</style>

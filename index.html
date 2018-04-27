@@ -1,0 +1,42 @@
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Roboto"  
+ rel="stylesheet" type="text/css">
+<script src="script.js"></script>
+<link rel="stylesheet" href="styles.css">
+
+<style>
+  .blue-text {
+    color: blue;
+  }
+
+  h2 {
+    font-family: Fjalla+One, Monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Fjalla+One;
+  }
+
+  .smaller-image {
+    width: 250px;
+  }
+  
+  .text-wrap {
+    width: 13em;
+    overflow-wrap: break-word;
+  }
+</style>
+
+<h2 class="blue-text">Prime Checker</h2>
+
+<a href="#"><img class="smaller-image" style="width:200px" alt="Prime numbers" src="https://thumbs.dreamstime.com/b/prime-numbers-overview-up-to-81723212.jpg"></a>
+
+<div>
+  <p class="text-wrap">A prime number is a number that can only be 
+  divided by itself and 1.</p>
+</div>
+
+<form action="/submit-number">
+  <input type="number" id="checkPrime" placeholder="Enter a number" required>
+  <button type="button" onclick="is_prime()">Check</a></button>
+</form>
