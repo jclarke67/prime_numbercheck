@@ -1,41 +1,29 @@
-<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Roboto"  
- rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" >
+
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 <script src="script.js"></script>
 <link rel="stylesheet" href="styles.css">
 
-<style>
-  .blue-text {
-    color: blue;
-  }
-  h2 {
-    font-family: Fjalla+One, Monospace;
-  }
-  p {
-    font-size: 16px;
-    font-family: Fjalla+One;
-  }
-  .smaller-image {
-    width: 250px;
-  }
-  
-  .text-wrap {
-    width: 13em;
-    overflow-wrap: break-word;
-  }
-</style>
-
-<h2 class="blue-text">Prime Checker</h2>
-
-<a href="#"><img class="smaller-image" style="width:200px" alt="Prime numbers" src="https://thumbs.dreamstime.com/b/prime-numbers-overview-up-to-81723212.jpg"></a>
-
-<div>
-  <p class="text-wrap">A prime number is a number that can only be 
-  divided by itself and 1.</p>
+<div id = "header">
+  <br>
+  <h2 class="blue-text">Prime Checker</h2>
+  <hr>
 </div>
 
-<form action="/submit-number">
-  <input type="number" min="0" id="checkPrime" placeholder="Enter a number" required="true">
-  <button type="button" onclick="is_prime()">Check</a></button>
-</form>
+<footer>
+    <center>
+<a href="#"><img class="smaller-image" alt="Prime numbers" src="https://thumbs.dreamstime.com/b/prime-numbers-overview-up-to-81723212.jpg"></a>
+    <p class="text-wrap">A prime number is any number other than 1 that can only be 
+    divided by itself and 1.</p>
 
-<p id="result"></p>
+  <form action="/submit-number">
+    <input type="number" min="0" id="checkPrime" placeholder="Enter a number" required="true">
+    <button type="button" onclick="is_prime()">Check</a></button>
+  </form>
+  <br>
+  <p id="result"></p>
+<footer id  = "footer">
+  <br> <p id="foot">Jeffrey Clarke</p>
+  <hr>
+</footer>
+</div>
