@@ -1,9 +1,6 @@
-const input = document.querySelector('#checkPrime');
-input.addEventListener('keyup',function(e){
-	if (e.keyCode === 13) {
-  	is_prime();
-  }
-});
+function keyPress(event) {
+    if (event.keyCode == 13) is_prime();
+}
 
 function element_transform(color, fontSize, bg, border, padding) {
   document.getElementById("result").style.color = color;
@@ -27,10 +24,7 @@ function is_prime() {
   if (n == 1) status = false;
   if (n == 2) status = true;
   for (var i = 2; i < n; i++) {
-    if (n % i == 0) {
-      status = false; 
-      break;
-    }
+    if (n % i == 0) { status = false; break; }
   }
   
   console.log(status);
