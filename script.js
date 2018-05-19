@@ -1,3 +1,10 @@
+const input = document.querySelector('#checkPrime');
+input.addEventListener('keyup',function(e){
+	if (e.keyCode === 13) {
+  	is_prime();
+  }
+});
+
 function element_transform(color, fontSize, bg, border, padding) {
   document.getElementById("result").style.color = color;
   document.getElementById("result").style.fontSize = fontSize;
