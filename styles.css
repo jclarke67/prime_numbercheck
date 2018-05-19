@@ -1,3 +1,13 @@
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
 #result {
   color: black;
   font-size: 18px;
@@ -17,17 +27,17 @@
 
 #foot {
   color: white;
-  margin-top: 14.4px;
   font-size: 18px;
+  margin-top: 25px;
   font-family: 'Raleway', sans-serif;  
 }
 
 #footer {
-  background-color: black;
-  position: absolute;
-  width:100%;
+  bottom: 0px;
+  background-color: #333;
+  width: 100%;
   font-size: 1px;
-  padding:5px; 
+  position: absolute;
 }
 
 .blue-text {
@@ -55,4 +65,9 @@ p {
 
 body {
   background-color: white;
+  height: 100vh;
+  margin: 0;
+  padding: 0;  
+  display: flex;
+  flex-direction: column;
 }
