@@ -3,9 +3,10 @@
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
   width: 400px;
-  border: 5px solid #563d7c;
+  height: 60px;
+  border: 5px solid white;
   padding: 2px;
-  background-color: #563d7c;
+  background-color: white;
 }
 
 #header {
@@ -21,12 +22,12 @@
 }
 
 #footer {
+  margin-top: 14.4px;
   background-color: black;
   position: absolute;
-  bottom: 0;
   width:100%;
-  height: 60px;
   font-size: 1px;
+  padding:5px; 
 }
 
 .blue-text {
@@ -41,7 +42,7 @@ p {
   font-family: 'Raleway', sans-serif;
 }
 .smaller-image {
-  margin-top: 35px;
+  margin-top: 10px;
   width: 400px;
 }
 
