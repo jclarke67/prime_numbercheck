@@ -1,3 +1,28 @@
+.check {
+  padding: 12px 15px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #1996C9;
+  background-color: #5ccbf8;
+  border: none;
+  border-radius: 7px;
+}
+
+.check:hover {
+  background-color: #46B6E3;
+}
+
+.check:active {
+  background-color: #33A8D8;
+}
+
+#checkPrime {
+  font-size: 20px;
+  padding: 10px;
+}
+
 html {
   height: 100%;
   margin: 0;
@@ -57,7 +82,7 @@ p {
 }
 
 .text-wrap {
-  width: 26em;
+  width: 24em;
   overflow-wrap: break-word;
   margin:10px;
   padding:10px;
