@@ -16,4 +16,12 @@ function is_prime() {
   }
   console.log(status);
   document.getElementById("result").innerHTML = status;
+  if (status == true) {
+    document.getElementById("result").style.backgroundColor = "#AED800";
+    document.getElementById("result").style.border = "5px solid #9CC100";
+  }
+  else {
+    document.getElementById("result").style.backgroundColor = "#E30D4A";
+    document.getElementById("result").style.border = "5px solid #CC073F";
+  }
 }
