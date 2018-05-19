@@ -33,5 +33,4 @@ function is_prime() {
     element_transform("white", "30px", "#AED800", "5px solid #9CC100", "2px");
   if (status == false)
     element_transform("white", "30px", "#E30D4A", "5px solid #CC073F", "2px");
-  
 }
