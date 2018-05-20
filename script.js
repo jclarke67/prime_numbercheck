@@ -21,7 +21,7 @@ function is_prime() {
   
   n = n.value;
   var status = true;
-  if (n == 1) status = false;
+  if (n == 1 || n == 0) status = false;
   if (n == 2) status = true;
   for (var i = 2; i < n; i++) {
     if (n % i == 0) { status = false; break; }
